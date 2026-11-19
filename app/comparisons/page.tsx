@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import { CategoryPage } from '@/components/CategoryPage';
+export const metadata:Metadata={title:'Vehicle Comparisons',description:'Compare bikes, cars and EVs by price, specifications and real-world ownership factors.'};
+export default function Page(){return <CategoryPage eyebrow="SIDE BY SIDE" title="Compare smarter." intro="A good comparison goes beyond headline specifications. Consider price, comfort, efficiency, service access, safety and long-term ownership." topics={['How to compare two motorcycles','How to compare family cars','Petrol vs electric running costs','Commuter bike vs premium motorcycle','SUV vs sedan ownership factors','Build a five-year ownership estimate']}/>}

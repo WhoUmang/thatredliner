@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import { CategoryPage } from '@/components/CategoryPage';
+export const metadata:Metadata={title:'Cars and SUVs',description:'Practical car and SUV buying, ownership, maintenance and running-cost information for India.'};
+export default function Page(){return <CategoryPage eyebrow="FOUR-WHEELER GARAGE" title="Cars & SUVs." intro="Useful information for Indian car owners and buyers, from running costs and maintenance to comparisons and ownership decisions." topics={['Car ownership costs and running expenses','Petrol vs diesel vs CNG','Service schedules and maintenance','Tyres, batteries and consumables','Family car and SUV buying guides','Used-car inspection checklist']}/>}

@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import { CategoryPage } from '@/components/CategoryPage';
+export const metadata:Metadata={title:'Bikes and Scooters',description:'Motorcycle and scooter ownership, maintenance, comparisons and buying guides for India.'};
+export default function Page(){return <CategoryPage eyebrow="TWO-WHEELER GARAGE" title="Bikes & scooters." intro="Motorcycle and scooter knowledge for Indian roads: ownership costs, practical maintenance, riding gear and informed buying decisions." topics={['Motorcycle ownership costs in India','Real-world mileage and fuel efficiency','Service schedules and maintenance basics','Tyres, brakes and chain care','Motorcycle comparisons and buying guides','Riding gear and essential accessories']}/>}

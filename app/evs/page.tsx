@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import { CategoryPage } from '@/components/CategoryPage';
+export const metadata:Metadata={title:'Electric Vehicles',description:'EV buying, charging, battery, range and ownership information for Indian drivers.'};
+export default function Page(){return <CategoryPage eyebrow="ELECTRIC MOBILITY" title="Electric vehicles." intro="Understand the practical side of electric mobility in India: charging, range, battery care, running costs and ownership trade-offs." topics={['EV running cost vs petrol','Home and public charging basics','Battery health and warranty questions','Electric scooter buying guide','Electric car ownership checklist','Charging time and range explained']}/>}

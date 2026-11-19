@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import { CategoryPage } from '@/components/CategoryPage';
+export const metadata:Metadata={title:'Vehicle Maintenance',description:'Practical bike and car maintenance guides, checks and troubleshooting for Indian owners.'};
+export default function Page(){return <CategoryPage eyebrow="CARE FOR THE MACHINE" title="Maintenance & care." intro="Understand routine vehicle care, recognize common symptoms and know when a qualified mechanic should inspect your vehicle." topics={['Pre-ride and pre-drive checks','Motorcycle chain cleaning and lubrication','Tyre pressure and tread checks','Brake wear and warning signs','Battery care and starting issues','Service invoices: what to check']}/>}
